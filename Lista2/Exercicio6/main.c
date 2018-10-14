@@ -7,7 +7,6 @@ long long bonati(int n){
     else if(n%2!=0) return bonati(n-1)*bonati(n-2);
   }
   
-
 }
 int main(void) {
   int num;
