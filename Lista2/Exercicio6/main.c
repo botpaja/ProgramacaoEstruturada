@@ -11,8 +11,7 @@ long long bonati(int n){
 int main(void) {
   int num;
   while(scanf("%d", &num)!=EOF){
-
-  printf("%lld\n", bonati(num-1));
+  	printf("%lld\n", bonati(num-1));
   }
   return 0;
 }
